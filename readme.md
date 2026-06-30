@@ -105,12 +105,16 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
 
 ### Día 2 (Martes 30 junio 2026)
 
-<!-- - Herramientas para preparar un buen commit en cualquier situación
+- Estructura interna de Git (brevemente)
+  - Objetos git: blobs, trees, commits (y tags)
+  - Referencias: HEAD, ramas (tags y remotes)
+
+- Herramientas para preparar un buen commit en cualquier situación
 
   - Operaciones en la Staging Area (Index)
     - Añadir ficheros
     - Eliminar de la Staging Area (Index)
-    - Preparar un commit parcial: git add -p
+    <!-- - Preparar un commit parcial: git add -p -->
   - Eliminar ficheros: git rm
   - Cambiar nombre de ficheros: git mv
   - git blame
@@ -121,17 +125,14 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
     - git command --amend
       - Ref logs
     - git checkout y git reset (introducción)
--->
+    - git checkout
+      - Evolución de git checkout: Nuevos comandos git switch y git restore
+        - git checkout a nivel de archivo (restore)
 
-- [Descanso]
-
-<!--
+- [Descanso] 11:30 - 11:50
 
 - Reescribiendo la historia (2)
-  - git checkout
   - git reset
-  - Evolución de git checkout: Nuevos comandos git switch y git restore
-    - git checkout a nivel de archivo (restore)
     - git reset a nivel de archivo
   - rebase interactivo
     - edit: modificando un commit
@@ -140,11 +141,18 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
 - Otros comandos
   - git clean
   - git revert 
--->
+  - Preparar un commit parcial: git add -p
+
+- Trabajando en paralelo
+    - main y feature branches (features/homepage, features/login, features/signup)
+    - hotfixes (hotfixes/login-error, hotfixes/signup-error)
+    - bugs (bugs/login-error, bugs/signup-error)
+    - Ramas: etiquetas
+
 
 ### Día 3 (Miércoles 1 julio 2026)
 
-<!-- - Trabajando en paralelo
+<!-- 
 
   - Ramas
     - Crear y seleccionar
